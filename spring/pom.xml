@@ -16,7 +16,7 @@
 	<description>
         <![CDATA[
                  The Infinispan Spring Integration project provides Spring 
-                 integration for INFNISPAN, a high performance distributed cache.
+                 integration for INFINISPAN, a high performance distributed cache.
                  Its primary features are
                  
                   * An implementation of org.springframework.cache.CacheManager,
@@ -49,6 +49,16 @@
 				<role>Developer</role>
 			</roles>
 			<timezone>0</timezone>
+		</developer>
+
+        <developer>
+			<id>marius.bogoevici</id>
+			<name>Marius Bogoevici</name>
+			<email>marius.bogoevici AT gmail.com</email>
+			<roles>
+				<role>Developer</role>
+			</roles>
+			<timezone>-5</timezone>
 		</developer>
 	</developers>
 
@@ -212,5 +222,16 @@
 			</plugin>
 		</plugins>
 	</build>
+
+    <!-- =================================================== -->
+    <!-- Additional repositories -->
+    <!-- =================================================== -->
+
+    <repositories>
+        <repository>
+            <id>Spring - Milestones</id>
+            <url>http://maven.springframework.org/milestone</url>
+        </repository>
+    </repositories>
 
 </project>
